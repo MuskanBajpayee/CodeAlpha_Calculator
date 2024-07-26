@@ -1,0 +1,110 @@
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif; 
+  background-color: rgb(23, 39, 87);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  font-weight: 100;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  background-color: rgb(221, 195, 214);
+  font: bold;
+}
+
+
+.row input{
+  width: 290px;
+  height: 32px;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 0px;
+  border: 2px solid black;
+  border-radius: 5px;
+  /* background-color: rgb(223, 215, 205); */
+  background-color: rgb(221, 195, 214);
+} 
+
+.row{
+  margin: 8px 0;
+}
+
+.container{
+  /* background-color: rgb(203, 139, 92); */
+  background: rgb(63,94,251);
+  background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,79,70,1) 59%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 19vw;
+  height: 55vh;
+  border-radius: 1.5rem;
+}
+
+.text-center{
+  text-align: center;
+  color: rgb(245, 239, 239);
+  font-family: sans-serif;
+  font-size: 3rem;
+}
+
+@media (max-width: 1245px) {
+  .container {
+    width: 40vw;
+    height: auto;
+    padding: 20px;
+  }
+
+  .row input {
+    width: 80%;
+    font-size: 18px;
+  }
+
+  .button {
+    width: auto;
+    padding: 15px;
+    font-size: 1rem;
+  }
+
+  .text-center {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 80vw;
+    height: auto;
+    padding: 10px;
+  }
+
+  .row input {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .button {
+    width: auto;
+    padding: 10px;
+    font-size: 0.875rem;
+  }
+
+  .text-center {
+    font-size: 1.5rem;
+  }
+}
+
+
